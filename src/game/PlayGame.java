@@ -6,7 +6,9 @@ import java.util.Scanner;
 public class PlayGame {
 
     public static void main(String[] args) {
-        int human = 0, pc = 0;
+        int human = 0;
+        int pc = 0;
+
         Move humanChoice = null;
         Scanner scanner = new Scanner(System.in);
 
